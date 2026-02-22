@@ -8,7 +8,7 @@ use CodeIgniter\Config\Services;
 
 class Auth extends BaseController
 {
-    protected $user;
+    protected $userModel;
 
     public function __construct()
     {
