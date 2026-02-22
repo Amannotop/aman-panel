@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: aman-panel
+    env: docker
+    region: oregon
+    buildCommand: docker build -t aman-panel .
+    startCommand: docker run -p 10000:8080 aman-panel
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://aman_panel_user:zlthHrxOudcWpNiucw6vYBTZRTAYhhaw@dpg-d6dfkdhr0fns73cqksj0-a.oregon-postgres.render.com/aman_panel
+      - key: CI_ENVIRONMENT
+        value: production
