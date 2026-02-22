@@ -3,7 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Config\AutoloadConfig;
-$autoload['time_zone'] = date_default_timezone_set('Asia/Kolkata');
+
 /**
  * -------------------------------------------------------------------
  * AUTOLOADER CONFIGURATION
