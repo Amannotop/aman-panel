@@ -6,7 +6,19 @@ services:
     buildCommand: docker build -t aman-panel .
     startCommand: docker run -p 10000:8080 aman-panel
     envVars:
-      - key: DATABASE_URL
-        value: postgresql://aman_panel_user:zlthHrxOudcWpNiucw6vYBTZRTAYhhaw@dpg-d6dfkdhr0fns73cqksj0-a.oregon-postgres.render.com/aman_panel
       - key: CI_ENVIRONMENT
         value: production
+      - key: app.baseURL
+        value: https://aman-panel-1.onrender.com/
+      - key: database.default.hostname
+        value: dpg-d6dfkdhr0fns73cqksj0-a.oregon-postgres.render.com
+      - key: database.default.database
+        value: aman_panel
+      - key: database.default.username
+        value: aman_panel_user
+      - key: database.default.password
+        value: zlthHrxOudcWpNiucw6vYBTZRTAYhhaw
+      - key: database.default.DBDriver
+        value: Postgre
+      - key: database.default.port
+        value: 5432
