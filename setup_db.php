@@ -21,7 +21,7 @@ try {
     
     $check = $pdo->query("SELECT COUNT(*) FROM asettings")->fetchColumn();
     if ($check == 0) {
-        $pdo->exec(\"INSERT INTO asettings (averion, alink, alicence) VALUES ('1.8.6', 'https://6', 'G743GFD738GD83G6')\");
+        $pdo->exec("INSERT INTO asettings (averion, alink, alicence) VALUES ('1.8.6', 'https://6', 'G743GFD738GD83G6')");
     }
     
     $pdo->exec("CREATE TABLE IF NOT EXISTS history (
@@ -74,7 +74,7 @@ try {
     
     $checkUser = $pdo->query("SELECT COUNT(*) FROM users WHERE username = 'cheatbot'")->fetchColumn();
     if ($checkUser == 0) {
-        $pdo->exec(\"INSERT INTO users (fullname, username, level, saldo, status, uplink, password, created_at, updated_at) VALUES ('CHEATBOT', 'cheatbot', 1, 2388500, 1, 'CHEATBOT_OWNER', '\$2y\$08\$GEG/7Ab.3X97o6qzvE8A0OxTuqujhrX7RZ1xg2A0VSB.gtps9jVFW', NULL, '2023-10-11 11:04:01')\");
+        $pdo->exec("INSERT INTO users (fullname, username, level, saldo, status, uplink, password, created_at, updated_at) VALUES ('CHEATBOT', 'cheatbot', 1, 2388500, 1, 'CHEATBOT_OWNER', '$2y$08$GEG/7Ab.3X97o6qzvE8A0OxTuqujhrX7RZ1xg2A0VSB.gtps9jVFW', NULL, '2023-10-11 11:04:01')");
     }
     
     echo "All tables created successfully!";
