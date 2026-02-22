@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost:8080/';
+	public $baseURL = 'https://aman-panel-1.onrender.com/';
 
 	/**
 	 * --------------------------------------------------------------------------
