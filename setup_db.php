@@ -74,7 +74,8 @@ try {
     
     $checkUser = $pdo->query("SELECT COUNT(*) FROM users WHERE username = 'cheatbot'")->fetchColumn();
     if ($checkUser == 0) {
-        $pdo->exec("INSERT INTO users (fullname, username, level, saldo, status, uplink, password, created_at, updated_at) VALUES ('CHEATBOT', 'cheatbot', 1, 2388500, 1, 'CHEATBOT_OWNER', '$2y$08$GEG/7Ab.3X97o6qzvE8A0OxTuqujhrX7RZ1xg2A0VSB.gtps9jVFW', NULL, '2023-10-11 11:04:01')");
+        $password = '$2y$08$GEG/7Ab.3X97o6qzvE8A0OxTuqujhrX7RZ1xg2A0VSB.gtps9jVFW';
+        $pdo->exec('INSERT INTO users (fullname, username, level, saldo, status, uplink, password, created_at, updated_at) VALUES (\'CHEATBOT\', \'cheatbot\', 1, 2388500, 1, \'CHEATBOT_OWNER\', \'' . $password . '\', NULL, \'2023-10-11 11:04:01\')');
     }
     
     echo "All tables created successfully!";
