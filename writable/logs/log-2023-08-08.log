@@ -1,0 +1,103 @@
+CRITICAL - 2023-08-08 05:53:04 --> Call to undefined function downloadFile()
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/botxdonl/public_html/app/Controllers/Auth.php(57): view('Auth/login', Array)
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-08 05:53:23 --> Call to undefined function downloadFile()
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/botxdonl/public_html/app/Controllers/Auth.php(57): view('Auth/login', Array)
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-08 05:53:26 --> Call to undefined function downloadFile()
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/botxdonl/public_html/app/Controllers/Auth.php(57): view('Auth/login', Array)
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-08 05:56:27 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:56:59 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:57:00 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:57:01 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:57:51 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:58:01 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:58:04 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:58:05 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:58:15 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:58:16 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 05:58:49 --> CodeIgniter\View\View::main(): Failed opening required 'file_download.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-08 06:08:45 --> Function name must be a string
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/botxdonl/public_html/app/Controllers/Auth.php(57): view('Auth/login', Array)
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-08 06:11:04 --> Call to undefined function downloadFile()
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/botxdonl/public_html/app/Controllers/Auth.php(57): view('Auth/login', Array)
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-08 06:11:05 --> Call to undefined function downloadFile()
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/botxdonl/public_html/app/Controllers/Auth.php(57): view('Auth/login', Array)
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-08 06:11:13 --> Call to undefined function downloadFile()
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/botxdonl/public_html/app/Controllers/Auth.php(57): view('Auth/login', Array)
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

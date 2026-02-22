@@ -1,0 +1,28 @@
+ERROR - 2021-11-23 16:55:38 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-23 16:55:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Models/KeysModel.php(26): CodeIgniter\Model->__call('get', Array)
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Connect.php(75): App\Models\KeysModel->getKeysGame(Array)
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Connect.php(21): App\Controllers\Connect->index_post()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#8 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-23 16:55:54 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-23 16:55:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Models/KeysModel.php(26): CodeIgniter\Model->__call('get', Array)
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Connect.php(75): App\Models\KeysModel->getKeysGame(Array)
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Connect.php(21): App\Controllers\Connect->index_post()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#8 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

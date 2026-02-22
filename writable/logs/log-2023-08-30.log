@@ -1,0 +1,20 @@
+CRITICAL - 2023-08-30 17:09:59 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/generate', Array, true)
+#2 /home/botxdonl/public_html/app/Controllers/Keys.php(271): view('Keys/generate', Array)
+#3 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-30 17:10:42 --> View themes, no current section.
+#0 /home/botxdonl/public_html/app/Views/Keys/generate.php(70): CodeIgniter\View\View->endSection()
+#1 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/botxdonl/...')
+#2 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/generate', Array, true)
+#4 /home/botxdonl/public_html/app/Controllers/Keys.php(271): view('Keys/generate', Array)
+#5 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#6 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#7 /home/botxdonl/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/botxdonl/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

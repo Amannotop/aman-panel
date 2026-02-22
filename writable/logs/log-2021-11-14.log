@@ -1,0 +1,27 @@
+CRITICAL - 2021-11-14 04:23:21 --> A non-numeric value encountered
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Helpers/nata_helper.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/u69678526...', 85, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(277): getPrice(Array, '1', '')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-14 11:02:17 --> A non-numeric value encountered
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Helpers/nata_helper.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/u69678526...', 85, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(277): getPrice(Array, '30', '')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-14 15:50:39 --> A non-numeric value encountered
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Helpers/nata_helper.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/u69678526...', 85, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(277): getPrice(Array, '30', '')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

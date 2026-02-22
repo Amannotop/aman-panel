@@ -1,0 +1,96 @@
+CRITICAL - 2022-01-02 19:08:23 --> Undefined property: stdClass::$cc
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Views/Keys/generate.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fnv7y8vq6...')
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(268): view()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 19:43:56 --> Object of class stdClass could not be converted to string
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/User.php(53): view()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 19:44:21 --> Undefined property: stdClass::$hh
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Views/Admin/referral.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fnv7y8vq6...')
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/User.php(53): view()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-02 20:06:22 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 20:06:40 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 20:06:49 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 20:07:25 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 20:07:42 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 20:09:04 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 20:18:01 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-02 20:19:37 --> Attempt to read property "level" on null
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

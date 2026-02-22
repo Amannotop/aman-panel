@@ -1,0 +1,128 @@
+CRITICAL - 2021-11-13 22:47:00 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1636817851.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1636818419, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 22:51:29 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1636818642.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1636818688, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 22:51:32 --> A non-numeric value encountered
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Helpers/nata_helper.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/u69678526...', 85, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(277): getPrice(Array, '30', '')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-13 22:52:49 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1636818735.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1636818768, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 22:53:49 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1636818784.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1636818829, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 22:54:44 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1636818852.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1636818882, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 22:55:02 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1636818868.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1636818901, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 22:59:29 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1636819086.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1636819168, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 23:06:38 --> Trying to get property 'level' of non-object
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u69678526...', 62, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('logout', 'before')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-13 23:07:07 --> Trying to get property 'level' of non-object
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u69678526...', 62, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-13 23:07:09 --> Trying to get property 'level' of non-object
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u69678526...', 62, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-13 23:16:55 --> Trying to get property 'level' of non-object
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u69678526...', 62, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-13 23:20:54 --> Trying to get property 'level' of non-object
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Models/UserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u69678526...', 62, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-13 23:50:37 --> A non-numeric value encountered
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Helpers/nata_helper.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/u69678526...', 85, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(277): getPrice(Array, '1', '')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

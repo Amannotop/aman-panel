@@ -1,0 +1,166 @@
+CRITICAL - 2022-01-18 19:19:45 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 19:49:07 --> syntax error, unexpected end of file
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#3 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-18 20:09:17 --> Cannot redeclare testfun() (previously declared in /storage/ssd5/674/18213674/public_html/app/Views/User/dashboard.php:18)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:09:53 --> Cannot redeclare testfun() (previously declared in /storage/ssd5/674/18213674/public_html/app/Views/User/dashboard.php:18)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:10:13 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:10:19 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:10:46 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:10:50 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:11:21 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:11:43 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:11:58 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 20:15:32 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 22:05:16 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:05:27 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:07:24 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:08:47 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:08:56 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:10:36 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:10:44 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:10:51 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:10:59 --> Call to a member function hasError() on null
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /storage/ssd5/674/18213674/public_html/app/Controllers/User.php(31): view()
+#4 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#5 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-18 22:17:20 --> Call to undefined method App\Controllers\User::fullname_act()
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->settings()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-18 23:46:30 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:47:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:48:43 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:50:02 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:50:13 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:55:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-18 23:57:42 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,370 @@
+CRITICAL - 2021-11-28 01:16:10 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 01:19:11 --> unlink(/home/u696785263/domains/keyind.in/public_html/haryanvi/writable/debugbar/debugbar_1638037122.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/u6...', '/home/u69678526...', 74, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1638037147, 20)
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-28 01:23:42 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:16:15 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:18:45 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:20:18 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:23:28 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:23:34 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:24:02 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:24:15 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:26:47 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 12:31:26 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:51:10 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:51:23 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:51:47 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:51:57 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:52:12 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:52:17 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:54:11 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 13:54:57 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 14:10:18 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:46:29 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:47:23 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:48:02 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:49:30 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:50:41 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:55:54 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:56:15 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:56:33 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:56:57 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:57:37 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:59:29 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 15:59:40 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:00:12 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:01:47 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:24:11 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:24:17 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:24:20 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:24:58 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:27:29 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-28 16:44:36 --> Undefined variable: totalTime
+#0 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u69678526...', 40, Array)
+#1 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/u69678526...')
+#2 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u696785263/domains/keyind.in/public_html/haryanvi/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u696785263/domains/keyind.in/public_html/haryanvi/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/u696785263/domains/keyind.in/public_html/haryanvi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

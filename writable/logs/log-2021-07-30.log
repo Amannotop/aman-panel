@@ -1,0 +1,310 @@
+CRITICAL - 2021-07-30 00:00:41 --> Argument 1 passed to word_limiter() must be of the type string, null given, called in C:\laragon\www\kuro\app\Models\UserModel.php on line 48
+#0 C:\laragon\www\kuro\app\Models\UserModel.php(48): word_limiter(NULL, 1, '')
+#1 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(97): App\Models\UserModel->App\Models\{closure}(NULL)
+#2 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 C:\laragon\www\kuro\app\Models\UserModel.php(53): Hermawan\DataTables\DataTable->toJson(true)
+#4 C:\laragon\www\kuro\app\Controllers\User.php(87): App\Models\UserModel->API_getUser()
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->api_get_users()
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-30 00:01:55 --> Argument 1 passed to word_limiter() must be of the type string, null given, called in C:\laragon\www\kuro\app\Models\UserModel.php on line 48
+#0 C:\laragon\www\kuro\app\Models\UserModel.php(48): word_limiter(NULL, 1, '')
+#1 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(97): App\Models\UserModel->App\Models\{closure}(NULL)
+#2 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#3 C:\laragon\www\kuro\app\Models\UserModel.php(53): Hermawan\DataTables\DataTable->toJson(true)
+#4 C:\laragon\www\kuro\app\Controllers\User.php(87): App\Models\UserModel->API_getUser()
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->api_get_users()
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-30 00:35:36 --> Incorrect parameters in the call to native function 'concat'
+CRITICAL - 2021-07-30 00:35:36 --> Incorrect parameters in the call to native function 'concat'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT CONCAT(i...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(i...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(i...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(i...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\kuro\app\Models\UserModel.php(55): Hermawan\DataTables\DataTable->toJson(true)
+#8 C:\laragon\www\kuro\app\Controllers\User.php(87): App\Models\UserModel->API_getUser()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->api_get_users()
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-07-30 00:36:24 --> Incorrect parameters in the call to native function 'concat'
+CRITICAL - 2021-07-30 00:36:24 --> Incorrect parameters in the call to native function 'concat'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT CONCAT(u...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(u...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(u...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(u...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\kuro\app\Models\UserModel.php(55): Hermawan\DataTables\DataTable->toJson(true)
+#8 C:\laragon\www\kuro\app\Controllers\User.php(87): App\Models\UserModel->API_getUser()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->api_get_users()
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-07-30 02:28:21 --> Undefined variable: a
+#0 C:\laragon\www\kuro\app\Views\User\dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 C:\laragon\www\kuro\app\Controllers\User.php(27): view('User/dashboard', Array)
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->index()
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-30 02:28:52 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-30 02:29:05 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-07-30 15:14:30 --> Invalid file: User/user_edit.php
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/user_edit....')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('User/user_edit', Array, true)
+#2 C:\laragon\www\kuro\app\Controllers\User.php(118): view('User/user_edit', Array)
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->user_edit('5')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 15:16:04 --> Invalid file: User/user_edit.php
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/user_edit....')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('User/user_edit', Array, true)
+#2 C:\laragon\www\kuro\app\Controllers\User.php(119): view('User/user_edit', Array)
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->user_edit('2')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 15:16:10 --> Invalid file: User/user_edit.php
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/user_edit....')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('User/user_edit', Array, true)
+#2 C:\laragon\www\kuro\app\Controllers\User.php(119): view('User/user_edit', Array)
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->user_edit('2')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 15:16:23 --> Invalid file: User/user_edit.php
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/user_edit....')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('User/user_edit', Array, true)
+#2 C:\laragon\www\kuro\app\Controllers\User.php(119): view('User/user_edit', Array)
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->user_edit('2')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 16:20:32 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 17:00:26 --> array_intersect_uassoc() expects parameter 3 to be a valid callback, function 'myfunction' not found or invalid function name
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_intersect...', 'C:\\laragon\\www\\...', 216, Array)
+#1 C:\laragon\www\kuro\app\Controllers\User.php(216): array_intersect_uassoc(Object(stdClass), Array, 'myfunction')
+#2 C:\laragon\www\kuro\app\Controllers\User.php(116): App\Controllers\User->user_edit_action()
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->user_edit('3')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 17:01:30 --> array_intersect_assoc(): Expected parameter 1 to be an array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_intersect...', 'C:\\laragon\\www\\...', 208, Array)
+#1 C:\laragon\www\kuro\app\Controllers\User.php(208): array_intersect_assoc(Object(stdClass), Array)
+#2 C:\laragon\www\kuro\app\Controllers\User.php(116): App\Controllers\User->user_edit_action()
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->user_edit('3')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-30 17:19:32 --> Undefined variable: user
+#0 C:\laragon\www\kuro\app\Views\Layout\msgStatus.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('Layout/msgStatu...', NULL, true)
+#4 C:\laragon\www\kuro\app\Views\Auth\login.php(7): CodeIgniter\View\View->include('Layout/msgStatu...')
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Auth/login', Array, true)
+#8 C:\laragon\www\kuro\app\Controllers\Auth.php(37): view('Auth/login', Array)
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-07-30 20:21:15 --> syntax error, unexpected 'if' (T_IF), expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 20:21:38 --> syntax error, unexpected 'if' (T_IF), expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 20:50:51 --> Undefined property: App\Controllers\Keys::$time
+#0 C:\laragon\www\kuro\app\Controllers\Keys.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->index()
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-30 20:51:29 --> Undefined variable: user
+#0 C:\laragon\www\kuro\app\Views\Layout\Header.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('Layout/Header', NULL, true)
+#4 C:\laragon\www\kuro\app\Views\Layout\Starter.php(44): CodeIgniter\View\View->include('Layout/Header')
+#5 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('Layout/Starter', Array, true)
+#8 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Keys/list', Array, true)
+#9 C:\laragon\www\kuro\app\Controllers\Keys.php(30): view('Keys/list')
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->index()
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#12 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-07-30 21:23:04 --> Call to undefined method App\Models\KeysModel::getUser
+#0 C:\laragon\www\kuro\app\Models\KeysModel.php(30): CodeIgniter\Model->__call('getUser', Array)
+#1 C:\laragon\www\kuro\app\Controllers\Keys.php(37): App\Models\KeysModel->API_getKeys()
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-07-30 21:42:33 --> Unknown column 'keys.expired_date' in 'field list'
+CRITICAL - 2021-07-30 21:42:33 --> Unknown column 'keys.expired_date' in 'field list'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT CONCAT(k...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(k...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(k...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(k...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\kuro\app\Models\KeysModel.php(51): Hermawan\DataTables\DataTable->toJson(true)
+#8 C:\laragon\www\kuro\app\Controllers\Keys.php(42): App\Models\KeysModel->API_getKeys()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-07-30 21:42:45 --> Unknown column 'keys.expired_date' in 'field list'
+CRITICAL - 2021-07-30 21:42:45 --> Unknown column 'keys.expired_date' in 'field list'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT CONCAT(k...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(k...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(k...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(k...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\kuro\app\Models\KeysModel.php(51): Hermawan\DataTables\DataTable->toJson(true)
+#8 C:\laragon\www\kuro\app\Controllers\Keys.php(42): App\Models\KeysModel->API_getKeys()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-07-30 21:43:08 --> Unknown column 'keys.expired_date' in 'field list'
+CRITICAL - 2021-07-30 21:43:08 --> Unknown column 'keys.expired_date' in 'field list'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT CONCAT(k...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(k...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(k...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(k...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\kuro\app\Models\KeysModel.php(51): Hermawan\DataTables\DataTable->toJson(true)
+#8 C:\laragon\www\kuro\app\Controllers\Keys.php(42): App\Models\KeysModel->API_getKeys()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-07-30 21:43:16 --> Unknown column 'keys.expired_date' in 'field list'
+CRITICAL - 2021-07-30 21:43:16 --> Unknown column 'keys.expired_date' in 'field list'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT CONCAT(k...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT CONCAT(k...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT CONCAT(k...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT CONCAT(k...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(70): Hermawan\DataTables\DataTableQuery->queryResult()
+#6 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(175): Hermawan\DataTables\DataTableQuery->getDataResult()
+#7 C:\laragon\www\kuro\app\Models\KeysModel.php(51): Hermawan\DataTables\DataTable->toJson(true)
+#8 C:\laragon\www\kuro\app\Controllers\Keys.php(42): App\Models\KeysModel->API_getKeys()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-07-30 22:01:59 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-07-30 22:01:59 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 C:\laragon\www\kuro\app\Models\KeysModel.php(51): Hermawan\DataTables\DataTable->toJson(true)
+#7 C:\laragon\www\kuro\app\Controllers\Keys.php(42): App\Models\KeysModel->API_getKeys()
+#8 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 22:04:18 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-07-30 22:04:18 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 C:\laragon\www\kuro\app\Models\KeysModel.php(51): Hermawan\DataTables\DataTable->toJson(true)
+#7 C:\laragon\www\kuro\app\Controllers\Keys.php(42): App\Models\KeysModel->API_getKeys()
+#8 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-07-30 22:04:35 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-07-30 22:04:35 --> Unknown column 'id' in 'where clause'
+#0 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTableQuery.php(63): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\laragon\www\kuro\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(174): Hermawan\DataTables\DataTableQuery->countFiltered()
+#6 C:\laragon\www\kuro\app\Models\KeysModel.php(51): Hermawan\DataTables\DataTable->toJson(true)
+#7 C:\laragon\www\kuro\app\Controllers\Keys.php(42): App\Models\KeysModel->API_getKeys()
+#8 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Keys->api_get_keys()
+#9 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#10 C:\laragon\www\kuro\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\kuro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

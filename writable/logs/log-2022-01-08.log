@@ -1,0 +1,42 @@
+ERROR - 2022-01-08 10:11:14 --> Error connecting to the database: Resource temporarily unavailable
+CRITICAL - 2022-01-08 10:11:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Resource temporarily unavailable
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/674/18213674/public_html/app/Models/KeysModel.php(26): CodeIgniter\Model->__call()
+#4 /storage/ssd5/674/18213674/public_html/app/Controllers/Connect.php(64): App\Models\KeysModel->getKeysGame()
+#5 /storage/ssd5/674/18213674/public_html/app/Controllers/Connect.php(21): App\Controllers\Connect->index_post()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-08 10:11:40 --> Error connecting to the database: Resource temporarily unavailable
+CRITICAL - 2022-01-08 10:11:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Resource temporarily unavailable
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/674/18213674/public_html/app/Models/KeysModel.php(26): CodeIgniter\Model->__call()
+#4 /storage/ssd5/674/18213674/public_html/app/Controllers/Connect.php(64): App\Models\KeysModel->getKeysGame()
+#5 /storage/ssd5/674/18213674/public_html/app/Controllers/Connect.php(21): App\Controllers\Connect->index_post()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-08 10:16:18 --> Error connecting to the database: Resource temporarily unavailable
+CRITICAL - 2022-01-08 10:16:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Resource temporarily unavailable
+#0 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/674/18213674/public_html/app/Models/KeysModel.php(26): CodeIgniter\Model->__call()
+#4 /storage/ssd5/674/18213674/public_html/app/Controllers/Connect.php(64): App\Models\KeysModel->getKeysGame()
+#5 /storage/ssd5/674/18213674/public_html/app/Controllers/Connect.php(21): App\Controllers\Connect->index_post()
+#6 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/674/18213674/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/674/18213674/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

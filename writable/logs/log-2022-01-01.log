@@ -1,0 +1,133 @@
+CRITICAL - 2022-01-01 19:28:00 --> device list is not a valid rule.
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(231): CodeIgniter\Controller->validate()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 19:47:12 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(702): strpos()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(138): CodeIgniter\Validation\Validation->splitRules()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(231): CodeIgniter\Controller->validate()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 19:48:19 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(702): strpos()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(138): CodeIgniter\Validation\Validation->splitRules()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(231): CodeIgniter\Controller->validate()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 20:03:46 -->  is not a valid rule.
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(231): CodeIgniter\Controller->validate()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 21:02:36 --> Undefined variable $devices
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 21:08:20 --> syntax error, unexpected token ","
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 21:10:07 --> Too few arguments to function setDevice(), 1 passed in /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php on line 223 and exactly 2 expected
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(223): setDevice()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 21:37:28 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(223): implode()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 21:39:48 --> Undefined variable $max_devices
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(219): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 21:41:51 --> Undefined variable $findKey
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 21:46:30 --> reduce_multiples(): Argument #1 ($str) must be of type string, array given, called in /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Helpers/nata_helper.php on line 69
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Helpers/nata_helper.php(69): reduce_multiples()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(225): setDevice()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 21:53:55 --> array_filter(): Argument #1 ($array) must be of type array, string given
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Helpers/nata_helper.php(71): array_filter()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(223): setDevice()
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(106): App\Controllers\Keys->edit_key_action()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->edit_key()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 21:59:59 --> Undefined property: stdClass::$Balance
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Views/Keys/generate.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fnv7y8vq6...')
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(268): view()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-01 22:14:01 --> Undefined property: stdClass::$snaldo
+#0 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Views/Keys/generate.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/fnv7y8vq6...')
+#2 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/fnv7y8vq6ejs/public_html/zenpact.in/app/Controllers/Keys.php(268): view()
+#5 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#6 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/fnv7y8vq6ejs/public_html/zenpact.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/fnv7y8vq6ejs/public_html/zenpact.in/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

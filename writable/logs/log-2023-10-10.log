@@ -1,0 +1,308 @@
+ERROR - 2023-10-10 18:18:30 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:18:30 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:20:27 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:20:27 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:21:28 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:21:28 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:22:28 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:22:28 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:23:28 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:23:28 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:24:28 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:24:28 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:26:17 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:26:17 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:26:58 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:26:58 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/KeysModel.php(26): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Controllers/Connect.php(64): App\Models\KeysModel->getKeysGame()
+#5 /storage/ssd5/256/21373256/public_html/app/Controllers/Connect.php(21): App\Controllers\Connect->index_post()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:27:08 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:27:08 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:27:56 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:27:56 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:30:43 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:30:43 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:32:40 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:32:40 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:33:40 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:33:40 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(20): CodeIgniter\Model->__call()
+#4 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#5 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-10 18:34:44 --> Max connect timeout reached while reaching hostgroup 1063 after 10014ms
+CRITICAL - 2023-10-10 18:34:44 --> Call to a member function getFirstRow() on bool
+#0 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#1 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-10-10 18:35:31 --> Max connect timeout reached while reaching hostgroup 1063 after 10013ms
+CRITICAL - 2023-10-10 18:35:31 --> Call to a member function getFirstRow() on bool
+#0 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#1 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-10-10 18:36:39 --> Max connect timeout reached while reaching hostgroup 1063 after 10016ms
+CRITICAL - 2023-10-10 18:36:39 --> Call to a member function getFirstRow() on bool
+#0 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#1 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-10-10 18:37:45 --> Max connect timeout reached while reaching hostgroup 1063 after 10202ms
+CRITICAL - 2023-10-10 18:37:45 --> Call to a member function getFirstRow() on bool
+#0 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#1 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-10-10 18:40:50 --> Can't create TCP/IP socket (24)
+CRITICAL - 2023-10-10 18:40:50 --> Call to a member function getFirstRow() on bool
+#0 /storage/ssd5/256/21373256/public_html/app/Models/UserModel.php(61): App\Models\UserModel->getUser()
+#1 /storage/ssd5/256/21373256/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-10-10 18:41:55 --> Can't create TCP/IP socket (24)
+CRITICAL - 2023-10-10 18:41:55 --> Call to a member function getRowObject() on bool
+#0 /storage/ssd5/256/21373256/public_html/app/Controllers/Connect.php(64): App\Models\KeysModel->getKeysGame()
+#1 /storage/ssd5/256/21373256/public_html/app/Controllers/Connect.php(21): App\Controllers\Connect->index_post()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-10-10 18:58:29 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 18:58:29 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(104): CodeIgniter\Controller->validate()
+#7 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(51): App\Controllers\Auth->login_action()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-10-10 18:59:42 --> Max connect timeout reached while reaching hostgroup 1063 after 10107ms
+CRITICAL - 2023-10-10 18:59:42 --> Call to a member function getRow() on bool
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(104): CodeIgniter\Controller->validate()
+#4 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(51): App\Controllers\Auth->login_action()
+#5 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-10 19:05:25 --> Max connect timeout reached while reaching hostgroup 1063 after 10235ms
+CRITICAL - 2023-10-10 19:05:25 --> Call to a member function getRow() on bool
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(104): CodeIgniter\Controller->validate()
+#4 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(51): App\Controllers\Auth->login_action()
+#5 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-10-10 19:17:01 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 19:17:01 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(104): CodeIgniter\Controller->validate()
+#7 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(51): App\Controllers\Auth->login_action()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-10-10 19:18:01 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-10-10 19:18:01 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(104): CodeIgniter\Controller->validate()
+#7 /storage/ssd5/256/21373256/public_html/app/Controllers/Auth.php(51): App\Controllers\Auth->login_action()
+#8 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /storage/ssd5/256/21373256/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /storage/ssd5/256/21373256/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
