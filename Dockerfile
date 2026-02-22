@@ -18,4 +18,4 @@ RUN chmod -R 755 /var/www/html/writable
 
 EXPOSE 8080
 
-CMD ["php", "-S", "0.0.0.0:8080", "-t", "/var/www/html/public"]
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "/var/www/html"]
