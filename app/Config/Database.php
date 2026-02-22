@@ -33,22 +33,21 @@ class Database extends Config
 
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => 'id21373256x',
-		'password' => '@cheatbot_owner',
-		'database' => 'Qjh8yuiop@1',
-		'DBDriver' => 'MySQLi',
+		'hostname' => 'dpg-d6dfkdhr0fns73cqksj0-a.oregon-postgres.render.com',
+		'username' => 'aman_panel_user',
+		'password' => 'zlthHrxOudcWpNiucw6vYBTZRTAYhhaw',
+		'database' => 'aman_panel',
+		'DBDriver' => 'Postgre',
 		'DBPrefix' => '',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
 		'charset'  => 'utf8',
-		'DBCollat' => 'utf8_general_ci',
 		'swapPre'  => '',
 		'encrypt'  => false,
 		'compress' => false,
 		'strictOn' => false,
 		'failover' => [],
-		'port'     => 3306,
+		'port'     => 5432,
 	];
 
 	/**
