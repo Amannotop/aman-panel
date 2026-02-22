@@ -4,7 +4,7 @@ services:
     env: docker
     region: oregon
     buildCommand: docker build -t aman-panel .
-    startCommand: docker run -p 10000:8080 aman-panel
+    startCommand: php -S 0.0.0.0:8080 -t /var/www/html router.php
     envVars:
       - key: CI_ENVIRONMENT
         value: production
